@@ -7,7 +7,8 @@
     "pages/backup/backup",
     "pages/weather/weather",
     "pages/stock/stock",
-    "pages/service/service"
+    "pages/service/service",
+    "pages/homepage/homepage"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,13 +22,19 @@
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "resources/icons/tabbar/page_index.png",
-        "selectedIconPath":"resources/icons/tabbar/page_index_color.png"
+        "selectedIconPath": "resources/icons/tabbar/page_index_color.png"
       },
       {
         "pagePath": "pages/menu/menu",
         "text": "应用",
         "iconPath": "resources/icons/tabbar/page_application.png",
         "selectedIconPath": "resources/icons/tabbar/page_application_color.png"
+      },
+      {
+        "pagePath": "pages/homepage/homepage",
+        "text": "首页cookie",
+        "iconPath": "resources/icons/tabbar/page_index.png",
+        "selectedIconPath": "resources/icons/tabbar/page_index_color.png"
       }
     ]
   },

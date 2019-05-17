@@ -35,6 +35,7 @@ App({
   },
   globalData: {
     userInfo: null,
+    appId: 'wxdaa925c488f725a4',
     serverUrl: 'http://127.0.0.1:8001',
     apiVersion: '/api/v1.0'
   }
